@@ -1,13 +1,92 @@
 <!DOCTYPE html>
 <html>
-	<head>
-		<meta charset="utf-8">
-		<title>Master Repositories</title>
-		<link rel="stylesheet" href="style.css" media="screen" title="no title" charset="utf-8">
-		<script src="https://use.typekit.net/mse0cfz.js"></script>
-		<script>try{Typekit.load({ async: true });}catch(e){}</script>
-	</head>
-	<body>
-		<h1>Hello World!</h1>
-	</body>
+<head>
+	<meta charset="utf-8">
+	<title>Rikards Master Repositories</title>
+	<link rel="stylesheet" href="style.css" media="screen" title="no title" charset="utf-8">
+
+	<link rel='shortcut icon' href='favicon.ico' type='image/x-icon'/ >
+
+	<script src="https://use.typekit.net/mse0cfz.js"></script>
+	<script>try{Typekit.load({ async: true });}catch(e){}</script>
+</head>
+<body>
+	<div class="container">
+
+		<h4>Wireless ECG:</h4>
+		<h1>Repository overview</h1>
+		<p>
+			The following is an overview of the different repositories related to my master thesis. The project for the thesis itself, can be found <a href="https://github.com/rix1/master-thesis">here.</a>
+		</p>
+		<ul>
+			<li><a href="https://github.com/rix1/master-monitoring-server">Monitoring Server</a>
+				<p>
+					Meteor server for receiving data from BLE devices and publishing it to clients in real time.
+				</p>
+				<div class="licence-flex">
+
+					<p class="licence">
+						Project: <a href="https://github.com/meteor/meteor/">Meteor</a><br>
+						License: <a href="https://github.com/meteor/meteor/blob/master/LICENSE">MIT</a> <br>
+						Copyright (C) 2011 – 2016 Meteor Development Group
+					</p>
+				</div>
+			</li>
+			<li><a href="https://github.com/rix1/master-time-sync">Time Synchronizing Server</a>
+				<p>
+					Node server for synchronizing time between clients. Using the following open source software:
+				</p>
+				<div class="licence-flex">
+
+					<p class="licence">
+						Project: <a href="https://github.com/enmasseio/timesync/">TimeSync</a><br>
+						License: <a href="https://github.com/enmasseio/timesync/blob/master/LICENSE">MIT</a> <br>
+						Copyright (c) 2016 enmasse.io
+					</p>
+				</div>
+
+			</li>
+			<li><a href="https://github.com/rix1/master-ble-emit-logger">BLE Emit Logger</a>
+				<p>
+					Node server for registering when a nRF51 board emits data over BLE.
+				</p>
+				<div class="licence-flex">
+					<p class="licence">
+						Project: <a href="https://github.com/enmasseio/timesync/">TimeSync</a><br>
+						License: <a href="https://github.com/enmasseio/timesync/blob/master/LICENSE">MIT</a> <br>
+						Copyright (c) 2016 enmasse.io
+					</p>
+					<p class="licence">
+						Project: <a href="https://github.com/EmergingTechnologyAdvisors/node-serialport">node-serialport</a><br>
+						License: <a href="https://github.com/EmergingTechnologyAdvisors/node-serialport/blob/master/LICENSE">MIT</a> <br>
+						Copyright 2010, 2011, 2012 Christopher Williams
+					</p>
+					<p class="licence">
+						Project: <a href="https://github.com/oortcloud/node-ddp-client">node-ddp-client</a><br>
+						License: <a href="https://github.com/oortcloud/node-ddp-client/blob/master/LICENSE">MIT/X11</a> <br>
+						Copyright (C) 2013 – 2016 by Tom Coleman
+					</p>
+				</div>
+
+			</li>
+			<li><a href="https://github.com/rix1/master-iot-gateway">Android Sensor Gateway</a>
+				<p>
+					An Android gateway for proxying data from BLE devices to Meteor servers.
+				</p>
+				<div class="licence-flex">
+					<p class="licence">
+						Project: <a href="https://github.com/delight-im/Android-DDP">Android-DDP</a><br>
+						License: <a href="https://github.com/oortcloud/node-ddp-client/blob/master/LICENSE">Apache 2.0</a> <br>
+						Copyright (c) delight.im <info@delight.im>
+					</p>
+				</div>
+			</li>
+		</ul>
+		<div class="credits">
+			<p>
+				Rikard Eide 2016
+			</p>
+		</div>
+	</div>
+</body>
 </html>
