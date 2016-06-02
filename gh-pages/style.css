@@ -50,7 +50,7 @@ li{
 	padding-bottom: 55px;
 }
 
-li:not(:last-child):after{
+/*li:not(:last-child):after{
 	content:"";
 	background: lightgray;
 	position: absolute;
@@ -59,7 +59,7 @@ li:not(:last-child):after{
 	left: 25%;
 	height: 1px;
 	width: 30%;
-}
+}*/
 
 ul li:first-child{
 	margin-top: 0;
@@ -67,9 +67,6 @@ ul li:first-child{
 
 ul li:last-child{
 	border-bottom: none;
-}
-ul li:last-child:after{
-	content: "";
 }
 
 li > p{
