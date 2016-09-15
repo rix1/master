@@ -11,7 +11,7 @@
 	<script>try{Typekit.load({ async: true });}catch(e){}</script>
 </head>
 <body>
-	<div class="container">
+	<div class="container" id="app">
 
 		<h4>Wireless ECG:</h4>
 		<h1>Repository overview</h1>
@@ -19,7 +19,20 @@
 			The following is an overview of the different repositories related to my master thesis. The project for the thesis itself, can be found <a href="https://github.com/rix1/master-thesis">here.</a>
 		</p>
 		<ul>
-			<li><a href="https://github.com/rix1/master-monitoring-server">Monitoring Server</a>
+			<li v-for="d in data"><a href="https://github.com/rix1/master-monitoring-server">{{d.name}}</a>
+				<p>
+					{{d.desc}}
+				</p>
+				<div class="licence-flex">
+
+					<p class="licence">
+						Project: <a href="https://github.com/meteor/meteor/">Meteor</a><br>
+						License: <a href="https://github.com/meteor/meteor/blob/master/LICENSE">MIT</a> <br>
+						Copyright (C) 2011 – 2016 Meteor Development Group
+					</p>
+				</div>
+			</li>
+			<!-- <li><a href="https://github.com/rix1/master-monitoring-server">Monitoring Server</a>
 				<p>
 					Meteor server for receiving data from BLE devices and publishing it to clients in real time.
 				</p>
@@ -92,7 +105,7 @@
 						Copyright (c) 2006-2015 ARM Limited
 					</p>
 				</div>
-			</li>
+			</li> -->
 		</ul>
 		<div class="credits">
 			<p>
@@ -111,5 +124,8 @@
 	ga('send', 'pageview');
 
 	</script>
+	<script src="gh-pages/vue.js" charset="utf-8"></script>
+	<script src="gh-pages/master.js" charset="utf-8"></script>
+	<script src="gh-pages/data.js" charset="utf-8"></script>
 </body>
 </html>
