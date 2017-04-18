@@ -45,7 +45,7 @@
     {
       "component": "header",
       "heading": "master",
-      "subhead": "Samleside for master repos",
+      "subhead": "Samleside for master repositories",
       "children": [
         {
           "component": "ui/TweetButton",
@@ -57,7 +57,8 @@
           "user": "rix1",
           "repo": "master"
         }
-      ]
+      ],
+      "backgroundImage": "https://c1.staticflickr.com/8/7476/15583348903_9749e60c2e_k.jpg"
     },
     {
       "component": "footer",
